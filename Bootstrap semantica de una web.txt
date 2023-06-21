@@ -1,0 +1,54 @@
+<!-- BootStrap -->
+
+Link cdn.jsdelivr
+
+Script cdn.jsdelivr
+
+Link cdn.jsdelivr.net/npm/bootstrap-icons
+
+**************************************************************
+
+<!-- NavBar -->
+
+<nav class=" navbar navbar-expand-lg bg-body-tertiary"
+
+</nav>
+
+**************************************************************
+
+<!-- Carousel -->
+
+<div id=" carouselExampleIndicators" class="carousel slide">
+
+</div>
+
+**************************************************************
+
+<!-- Main Container -->
+
+<div class="container">
+
+<div class="row">
+  <div class="col">
+<!-- Card 1 -->
+
+  </div>
+ </div>
+</div>
+
+
+<!-- About -->
+
+
+
+<!-- Contact Us -->
+
+
+<!-- Footer -->
+
+
+<!-- End of Container -->
+
+**************************************************************
+
+<!-- Main Container -->

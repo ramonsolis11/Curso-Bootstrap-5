@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Input file en Bootstrap 5 - Aprende a trabajar con archivos de entrada</title>
+</head>
+<body>
+    
+    <!-- Input file en Bootstrap 5 - Aprende a trabajar con archivos de entrada -->
+    <div class="container py-4">
+        <form action="">
+            <!-- Formulario 1 file  -->
+            <div class="mb-3">
+                <label class="form-label" for="formfile">Input file predeterminado</label>
+                <input class="form-control" type="file" name="formfile" id="formfile">
+            </div>
+            <!-- Formulario varios file -->
+            <div class="mb-3">
+                <label class="form-label" for="formfileMultiple">Input file multiple</label>
+                <input class="form-control" type="file" name="formfile" id="formfileMultiple" multiple>
+            </div>
+            <!-- Formulario 1varios file y mas grande -->
+            <div class="mb-3">
+                <label class="form-label" for="formfileLg">Input file LG</label>
+                <input class="form-control form-control-lg" type="file" name="formfile" id="formfileLg" multiple>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

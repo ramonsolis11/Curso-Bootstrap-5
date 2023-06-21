@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Input disabled en Bootstrap 5 - Cómo deshabilitar campos de formulario</title>
+</head>
+<body>
+    
+    <!-- Input disabled en Bootstrap 5 - Cómo deshabilitar campos de formulario -->
+
+    <div class="container">
+        <form action="">
+            <div class="mb-3">
+                <label class="form-label" for="name">Nombre</label>
+                <input placeholder="Por favor ingrese su nombre..." class="form-control" name="name" type="text" id="name" disabled>
+            </div>
+
+            <div class="mb-3 row">
+                <label class="col-form-label col-2" for="email">Email:</label>
+                <div class="col-10">
+                    <input disabled readonly value="mondev@gmail.com" placeholder="Por favor ingrese su email..." class="form-control-plaintext" name="email" type="email" id="email">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="phone">Telefono</label>
+                <input placeholder="Por favor ingrese su telefono..." class="form-control" name="phone" type="telefono" id="Telefono">
+            </div>
+
+            <div>
+                <label class="form-label" for="description">Descripcion</label>
+                <textarea placeholder="Por favor escriba una breve descripcion" class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <!-- Atributos
+    *disabled* el input queda desabilitado
+    *readonly* este atributo lo que hace es que muestra el input solo de lectura
+    *row* usamos para 1 fila 
+    *col* usamos para espacio de 2 columnas -->
+
+
+
+</body>
+</html>
